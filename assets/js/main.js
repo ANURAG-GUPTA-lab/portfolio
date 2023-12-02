@@ -5,6 +5,11 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+function toggleTheme() {
+    const body = document.body;
+    body.classList.toggle("dark-mode");
+}
+
 (function() {
   "use strict";
 
