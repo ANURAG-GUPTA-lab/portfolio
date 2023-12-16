@@ -12,6 +12,7 @@
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 h1,
@@ -21,6 +22,11 @@ h4,
 h5,
 h6 {
   color: #1e1e1e;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
 }
 
 a {
